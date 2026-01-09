@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+            "source": "/wallet",
+            "destination": "/wallet.html"
+        },
+        {
+            "source": "/wallet2",
+            "destination": "/wallet%202.html"
+        },
+        {
+            "source": "/suspendedpage",
+            "destination": "/suspendedpage.html"
+        }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "static": {
+        "public": "."
+    }
+}
